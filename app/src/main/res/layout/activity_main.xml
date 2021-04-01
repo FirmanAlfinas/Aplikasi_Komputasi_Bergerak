@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            app:srcCompat="@drawable/tamvan"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/LabelNama"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/tvNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/isiNama"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/LabelNIM"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/tvNIM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/isiNIM"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/LabelKelas"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvKelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/isiKelas"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/LabelJk"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvJK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/isiJk"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/LabelTtl"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvTtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/isiTtl"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/LabelAlamatRumah"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/isiAlamatRumah"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/LabelGD"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvGD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/isiGD"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/LabelMaKes"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvMakes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/isiMaKes"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/LabelKikes"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvMikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/isiMikes"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/LabelHobi"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvHobi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/isiHobi"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/LabelLaguFav"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvLagu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/isiLaguFav"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

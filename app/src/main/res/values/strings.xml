@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Biodata</string>
+    <string name="LabelNama">Nama</string>
+    <string name="LabelNIM">NIM</string>
+    <string name="LabelKelas">Kelas</string>
+    <string name="LabelJk">Jenis Kelamin</string>
+    <string name="LabelTtl">Tempat tanggal lahir</string>
+    <string name="LabelAlamatRumah">Alamat Rumah</string>
+    <string name="LabelGD">Golongan Darah</string>
+    <string name="LabelMaKes">Makanan Kesukaan</string>
+    <string name="LabelKikes">Minuman Kesukaan</string>
+    <string name="LabelHobi">Hobi</string>
+    <string name="LabelLaguFav">Lagu Favorit</string>
+
+    <string name="isiNama">Firman Alfinas</string>
+    <string name="isiNIM">10118904</string>
+    <string name="isiKelas">IF-11K</string>
+    <string name="isiJk">Laki-Laki</string>
+    <string name="isiTtl">Cimahi, 29 Maret 2000</string>
+    <string name="isiAlamatRumah">Jl. Gatot Subroto No.199/B</string>
+    <string name="isiGD">B</string>
+    <string name="isiMaKes">Kue balok</string>
+    <string name="isiMikes">Air dingin</string>
+    <string name="isiHobi">Olahraga</string>
+    <string name="isiLaguFav">Opening anime</string>
+</resources>
